@@ -1,0 +1,64 @@
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.datosEnviados {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 10px;
+  width: 50%;
+}
+
+.turno {
+  width: 12%;
+  padding: 2.5px 10px;
+  font-size: 15px;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: darkorange;
+  transform: scale(1.1);
+}
+
+table {
+  margin: 40px 40px;
+}
+
+thead {
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #000;
+  padding: 8px 15px;
+}
