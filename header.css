@@ -43,6 +43,12 @@ header {
     position: static;
   }
 
+  .navigation ul {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+  }
+
   .caja {
     width: auto;
   }
