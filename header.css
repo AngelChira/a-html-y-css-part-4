@@ -34,13 +34,17 @@ header {
 }
 
 @media screen and (max-width: 480px) {
-
   h1 {
     text-align: center;
   }
 
+  .logoBarberia {
+    height: 200px;
+  }
+
   .navigation {
     position: static;
+    margin: 0 7px;
   }
 
   .navigation ul {

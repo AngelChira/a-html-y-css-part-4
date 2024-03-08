@@ -154,9 +154,40 @@ p::first-line {
     text-align: justify;
   }
 
-  .principal .titulo-principal {
+  .principal .titulo-principal, .map .titulo-principal, .diferenciales .titulo-principal {
     font-size: 1.5em;
     font-weight: bold;
+  }
+
+  .principal p, .map p {
+    font-size: 15px;
+  }
+
+  .map .map-content {
+    padding: 0 18px;
+  }
+
+  /* DIFERENCIALES */
+  .diferenciales {
+    padding: 30px 0;
+  }
+
+  .list-diferenciales {
+    width: 80%;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .imagenDiferencial {
+    margin-bottom: 20px;
+  }
+
+  .diferenciales .video {
+    padding: 0 18px;
+  }
+
+  .videoYT {
+    height: 250px;
   }
 
 }
