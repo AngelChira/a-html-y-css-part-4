@@ -49,6 +49,10 @@ header {
     flex-direction: row;
   }
 
+  .navigation li {
+    margin: 0 0 0 10px;
+  }
+
   .caja {
     width: auto;
   }

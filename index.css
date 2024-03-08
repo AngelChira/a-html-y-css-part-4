@@ -1,4 +1,4 @@
-body {
+main, footer {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -147,6 +147,16 @@ p::first-line {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .principal {
+    padding: 48px 20px;
+    text-align: justify;
+  }
+
+  .principal .titulo-principal {
+    font-size: 1.5em;
+    font-weight: bold;
   }
 
 }
